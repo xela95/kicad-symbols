@@ -7,7 +7,7 @@ F http://www.ti.com/lit/ds/symlink/cc2640r2f.pdf
 $ENDCMP
 #
 $CMP DJ06S2405A
-D 6W DC/DC CONVERTER, DIP-Package, High Isolation 
+D 6W DC/DC CONVERTER, DIP-Package, High Isolation
 K DC/DC CONVERTER
 F http://www.deltaww.com/filecenter/products/download/01/0102/datasheet/DS_DJ06S_D.pdf
 $ENDCMP
@@ -18,10 +18,28 @@ K 4-2172062-24-2172062-2
 F https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/2172062.pdf
 $ENDCMP
 #
+$CMP M12x5_PCB_angled
+D CONN RCPT MALE 5POS GOLD SOLDER
+K 4-2172062-24-2172062-2
+F https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/2172062.pdf
+$ENDCMP
+#
 $CMP MAX3074E
 D RS-422/RS-485 Interface IC 3.3V Fl-Sfe/Ht-Swp RS-485/RS-422 Tcvr
 K MAX3074EESA+
 F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
+$CMP OKR-T
+D DC/DC CONVERTER 0.591-6V 7.5WDC/DC CONVERTER 0.591-6V 7.5WDC/DC CONVERTER 0.591-6V 7.5W
+K OKR-T/1.5-W12-C
+F https://power.murata.com/data/power/okr-t1-5-w12.pdf
+$ENDCMP
+#
+$CMP OKR-T/1.5-W12-C
+D DC/DC CONVERTER 0.591-6V 7.5W
+K OKR-T/1.5-W12-C
+F https://power.murata.com/data/power/okr-t1-5-w12.pdf
 $ENDCMP
 #
 $CMP SST25VF512A
@@ -38,7 +56,7 @@ $ENDCMP
 #
 $CMP TPS79601DR
 D Ultralow-Noise, High PSRR, Fast, RF, 1-A Low-Dropout Linear Regulators
-K LDO 
+K LDO
 F http://www.ti.com/lit/ds/symlink/tps796.pdf
 $ENDCMP
 #
